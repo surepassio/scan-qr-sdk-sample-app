@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
 
 ### 4. Handle the Scanned QR Code
 
-Upon integration, the SDK will activate the camera to scan QR codes. The scanned QR details will be available in the `onQRCodeScanned` callback. Implement your API wrapper in this callback to handle Aadhaar QR details.
+Upon integration, the SDK will open the camera to scan QR codes. The scanned QR details will be available in the `onQRCodeScanned` callback. Implement your API wrapper in this callback to handle Aadhaar QR details.
 
 ```kotlin
 
