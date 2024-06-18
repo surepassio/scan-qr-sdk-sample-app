@@ -23,7 +23,7 @@ In your `app-level build.gradle` file, add the following dependency:
 minSdkVersion 26 // Minimum SDK version required
 
 dependencies {
-    implementation 'io.surepass.sdk:face-check-android-sdk-v1:1.0.0'
+    implementation 'io.surepass.sdk:scan-qr-android-sdk:1.0.0'
 }
 ```
 
