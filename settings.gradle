@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = "https://maven.pkg.github.com/surepassio/scan-qr-sdk-sample-app"
+            credentials {
+                username = "USER_NAME"
+                password = "PAT_TOKEN"//https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+                // (Allow Package Read Permission in token)
+            }
+        }
+    }
+}
+rootProject.name = "Scan QR Helper"
+include ':app'
